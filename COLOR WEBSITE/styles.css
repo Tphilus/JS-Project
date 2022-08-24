@@ -95,3 +95,16 @@
     color: #9518fc;
     transition: all 0.3s ease;
 }
+
+
+@media screen and (max-width: 960px) {
+    .navbar__container {
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        z-index: 1;
+        width: 100%;
+        max-width: 1300px;
+        padding: 0;
+    }
+}
