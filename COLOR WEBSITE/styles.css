@@ -107,4 +107,13 @@
         max-width: 1300px;
         padding: 0;
     }
+
+    .navbar__menu {
+        display: grid;
+        grid-template-columns: auto;
+        margin: 0;
+        width: 100%;
+        position: absolute;
+        top: -1000px;
+    }
 }
